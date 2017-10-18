@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>911</width>
-    <height>662</height>
+    <width>904</width>
+    <height>645</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -416,7 +416,7 @@ p, li { white-space: pre-wrap; }
      <rect>
       <x>50</x>
       <y>550</y>
-      <width>160</width>
+      <width>348</width>
       <height>80</height>
      </rect>
     </property>
@@ -425,6 +425,27 @@ p, li { white-space: pre-wrap; }
       <widget class="QPushButton" name="pushButton_15">
        <property name="text">
         <string>输入字符串</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="pushButton_16">
+       <property name="text">
+        <string>获取整型</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="pushButton_17">
+       <property name="text">
+        <string>下拉框</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="pushButton_18">
+       <property name="text">
+        <string>定制对话框</string>
        </property>
       </widget>
      </item>

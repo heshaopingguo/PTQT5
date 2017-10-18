@@ -11,7 +11,7 @@ from PyQt5 import QtCore, QtGui, QtWidgets
 class Ui_MainWindow(object):
     def setupUi(self, MainWindow):
         MainWindow.setObjectName("MainWindow")
-        MainWindow.resize(911, 662)
+        MainWindow.resize(904, 645)
         self.centralWidget = QtWidgets.QWidget(MainWindow)
         self.centralWidget.setObjectName("centralWidget")
         self.gridLayoutWidget = QtWidgets.QWidget(self.centralWidget)
@@ -137,7 +137,7 @@ class Ui_MainWindow(object):
         self.pushButton_14.setObjectName("pushButton_14")
         self.gridLayout_2.addWidget(self.pushButton_14, 1, 2, 1, 1)
         self.horizontalLayoutWidget_2 = QtWidgets.QWidget(self.centralWidget)
-        self.horizontalLayoutWidget_2.setGeometry(QtCore.QRect(50, 550, 160, 80))
+        self.horizontalLayoutWidget_2.setGeometry(QtCore.QRect(50, 550, 348, 80))
         self.horizontalLayoutWidget_2.setObjectName("horizontalLayoutWidget_2")
         self.horizontalLayout_2 = QtWidgets.QHBoxLayout(self.horizontalLayoutWidget_2)
         self.horizontalLayout_2.setContentsMargins(0, 0, 0, 0)
@@ -145,6 +145,15 @@ class Ui_MainWindow(object):
         self.pushButton_15 = QtWidgets.QPushButton(self.horizontalLayoutWidget_2)
         self.pushButton_15.setObjectName("pushButton_15")
         self.horizontalLayout_2.addWidget(self.pushButton_15)
+        self.pushButton_16 = QtWidgets.QPushButton(self.horizontalLayoutWidget_2)
+        self.pushButton_16.setObjectName("pushButton_16")
+        self.horizontalLayout_2.addWidget(self.pushButton_16)
+        self.pushButton_17 = QtWidgets.QPushButton(self.horizontalLayoutWidget_2)
+        self.pushButton_17.setObjectName("pushButton_17")
+        self.horizontalLayout_2.addWidget(self.pushButton_17)
+        self.pushButton_18 = QtWidgets.QPushButton(self.horizontalLayoutWidget_2)
+        self.pushButton_18.setObjectName("pushButton_18")
+        self.horizontalLayout_2.addWidget(self.pushButton_18)
         MainWindow.setCentralWidget(self.centralWidget)
 
         self.retranslateUi(MainWindow)
@@ -200,6 +209,9 @@ class Ui_MainWindow(object):
         self.pushButton_13.setText(_translate("MainWindow", "关于"))
         self.pushButton_14.setText(_translate("MainWindow", "关于QT"))
         self.pushButton_15.setText(_translate("MainWindow", "输入字符串"))
+        self.pushButton_16.setText(_translate("MainWindow", "获取整型"))
+        self.pushButton_17.setText(_translate("MainWindow", "下拉框"))
+        self.pushButton_18.setText(_translate("MainWindow", "定制对话框"))
 
 
 if __name__ == "__main__":

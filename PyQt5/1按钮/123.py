@@ -10,6 +10,67 @@ from PyQt5.QtCore import *
 from PyQt5.QtWidgets import *
 from Ui_123 import Ui_MainWindow
 
+from Ui_infor import Ui_Dialog
+
+
+class Dialog(QDialog, Ui_Dialog):
+    """
+    Class documentation goes here.
+    """
+    def __init__(self, parent=None):
+        """
+        Constructor
+        
+        @param parent reference to the parent widget
+        @type QWidget
+        """
+        super(Dialog, self).__init__(parent)
+        self.setupUi(self)
+    
+    @pyqtSlot()
+    def on_toolButton_clicked(self):
+        """
+        Slot documentation goes here.
+        """
+#        # TODO: not implemented yet
+#        raise NotImplementedError
+        print ('tool1')
+    @pyqtSlot()
+    def on_toolButton_3_clicked(self):
+        """
+        Slot documentation goes here.
+        """
+#        # TODO: not implemented yet
+#        raise NotImplementedError
+        print ('tool3')
+    @pyqtSlot()
+    def on_toolButton_2_clicked(self):
+        """
+        Slot documentation goes here.
+        """
+#        # TODO: not implemented yet
+#        raise NotImplementedError
+        print ('tool2')
+    @pyqtSlot()
+    def on_pushButton_clicked(self):
+        """
+        Slot documentation goes here.
+        """
+#        # TODO: not implemented yet
+#        raise NotImplementedError
+        print ('OK')
+    @pyqtSlot()
+    def on_pushButton_2_clicked(self):
+        """
+        Slot documentation goes here.
+        """
+#        # TODO: not implemented yet
+#        raise NotImplementedError
+        print ('cancel')
+
+
+
+
 
 class MainWindow(QMainWindow, Ui_MainWindow):
     """
@@ -223,15 +284,58 @@ class MainWindow(QMainWindow, Ui_MainWindow):
         """
 #        # TODO: not implemented yet
 #        raise NotImplementedError
-        #InputDialog.getText(self,'字符串',QLineEdit)
-#        QInputDialog.getText(self, '字符串', 'please input information',  QLineEdit.Normal, '在此输入信息')
-#        QInputDialog.getInt(self, '输入整数', '请输入一个整数，别的不要',  30, 0, 100)
-        my_list=QStringList()
-        my_list.append('香蕉')
-        my_list.append('苹果')
-        my_list.append('梨')
-        my_list.append('橘子')
-        my_str, ok=QInputDialog.getItemId(self, '下拉框','请选择', my_list)
+        my_str, ok=QInputDialog.getText(self, '字符串', 'please input information',  QLineEdit.Normal, '在此输入信息')
+        print (my_str)
+        
+    @pyqtSlot()
+    def on_pushButton_16_clicked(self):
+        """
+        Slot documentation goes here.
+        """
+        # TODO: not implemented yet
+#        raise NotImplementedError
+        QInputDialog
+        my_str, ok=QInputDialog.getInt(self, '输入整数', '请输入一个整数，别的不要',  30, 0, 100)
+        print (my_str)
+        
+        
+    @pyqtSlot()
+    def on_pushButton_17_clicked(self):
+        """
+        Slot documentation goes here.
+        """
+#        # TODO: not implemented yet
+#        raise NotImplementedError
+        my_list=['香蕉', '苹果', '梨子']
+#        my_list=QComboBox(self)
+#        my_list.addItem('黑客帝国')
+#        my_list.addItem('黑客帝国1')
+#        my_list.addItem('黑客帝国2')
+#        my_list.addItem('黑客帝国3')
+#        my_list=QStringList()
+#        my_list.append('香蕉')
+#        my_list.append('苹果')
+#        my_list.append('梨')
+#        my_list.append('橘子')
+        my_str, ok=QInputDialog.getItem(self, '下拉框','请选择', my_list)
+        print (my_str)
+        self.textBrowser_2.append(my_str)
+#        my_list.activated[str].connect(self.onActivated)
+#        self.show()
+
+
+    @pyqtSlot()
+    def on_pushButton_18_clicked(self):
+        """
+        Slot documentation goes here.
+        """
+#        # TODO: not implemented yet
+#        raise NotImplementedError
+        my_info=Dialog()
+        my_info.exec_()
+
+
+
 if __name__ == "__main__":
     import sys
     app = QApplication(sys.argv)
@@ -239,3 +343,4 @@ if __name__ == "__main__":
     ui.show()
     sys.exit(app.exec_())
     
+
