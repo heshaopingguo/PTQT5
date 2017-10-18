@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE Tasks SYSTEM "Tasks-6.0.dtd">
+<!-- eric6 tasks file for project 多个按钮 -->
+<!-- Saved: 2017-10-17, 22:40:22 -->
+<Tasks version="6.0">
+  <ProjectScanFilter></ProjectScanFilter>
+  <Task priority="1" completed="False" type="1" uid="{eff1f426-0227-4e99-a67c-0fb0a4d72965}">
+    <Summary>TODO: not implemented yet</Summary>
+    <Description></Description>
+    <Created>2017-10-17, 22:40:19</Created>
+    <Resource>
+      <Filename>123.py</Filename>
+      <Linenumber>54</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="1" uid="{f6547967-7fe6-4c74-a8ae-763f700ddb3a}">
+    <Summary>TODO: not implemented yet</Summary>
+    <Description></Description>
+    <Created>2017-10-17, 22:40:19</Created>
+    <Resource>
+      <Filename>123.py</Filename>
+      <Linenumber>63</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="1" uid="{e9a0dac3-5756-4931-8574-d1a34188bd7c}">
+    <Summary>TODO: not implemented yet</Summary>
+    <Description></Description>
+    <Created>2017-10-17, 22:40:19</Created>
+    <Resource>
+      <Filename>123.py</Filename>
+      <Linenumber>75</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="1" uid="{8b0e05d6-e5a4-431b-9a7b-46f31fb76e70}">
+    <Summary>TODO: not implemented yet</Summary>
+    <Description></Description>
+    <Created>2017-10-17, 22:40:19</Created>
+    <Resource>
+      <Filename>123.py</Filename>
+      <Linenumber>85</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="1" uid="{5dcbb68b-4ede-4fad-b28a-83b82ea3b95f}">
+    <Summary>TODO: not implemented yet</Summary>
+    <Description></Description>
+    <Created>2017-10-17, 22:40:19</Created>
+    <Resource>
+      <Filename>123.py</Filename>
+      <Linenumber>94</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="1" uid="{e4206641-c0ea-4923-96e7-d9afd5794717}">
+    <Summary>TODO: not implemented yet</Summary>
+    <Description></Description>
+    <Created>2017-10-17, 22:40:19</Created>
+    <Resource>
+      <Filename>123.py</Filename>
+      <Linenumber>102</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="1" uid="{4de59457-10e2-4a47-86ca-16054d15989a}">
+    <Summary>TODO: not implemented yet</Summary>
+    <Description></Description>
+    <Created>2017-10-17, 22:40:19</Created>
+    <Resource>
+      <Filename>123.py</Filename>
+      <Linenumber>111</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="1" uid="{d4a5dc41-02f4-4ac6-9ae6-2f60e41be394}">
+    <Summary>TODO: not implemented yet</Summary>
+    <Description></Description>
+    <Created>2017-10-17, 22:40:19</Created>
+    <Resource>
+      <Filename>123.py</Filename>
+      <Linenumber>121</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="1" uid="{062e7c96-1f58-4495-a55e-f7406a847179}">
+    <Summary>TODO: not implemented yet</Summary>
+    <Description></Description>
+    <Created>2017-10-17, 22:40:19</Created>
+    <Resource>
+      <Filename>123.py</Filename>
+      <Linenumber>135</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="1" uid="{54472c97-9dba-47cf-9973-0a384d133e5d}">
+    <Summary>TODO: not implemented yet</Summary>
+    <Description></Description>
+    <Created>2017-10-17, 22:40:19</Created>
+    <Resource>
+      <Filename>123.py</Filename>
+      <Linenumber>150</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="1" uid="{1416bf48-39bc-4c1a-bd46-eaef9d3abfae}">
+    <Summary>TODO: not implemented yet</Summary>
+    <Description></Description>
+    <Created>2017-10-17, 22:40:19</Created>
+    <Resource>
+      <Filename>123.py</Filename>
+      <Linenumber>162</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="1" uid="{cbed9249-b233-4c8b-99b3-f8ac5ed97026}">
+    <Summary>TODO: not implemented yet</Summary>
+    <Description></Description>
+    <Created>2017-10-17, 22:40:19</Created>
+    <Resource>
+      <Filename>123.py</Filename>
+      <Linenumber>170</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="1" uid="{c6f37195-21b8-448a-b785-939e60cfcde8}">
+    <Summary>TODO: not implemented yet</Summary>
+    <Description></Description>
+    <Created>2017-10-17, 22:40:19</Created>
+    <Resource>
+      <Filename>123.py</Filename>
+      <Linenumber>178</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="1" uid="{f1c8e82a-dc1b-4f80-8b32-80df1a87efdc}">
+    <Summary>TODO: not implemented yet</Summary>
+    <Description></Description>
+    <Created>2017-10-17, 22:40:19</Created>
+    <Resource>
+      <Filename>123.py</Filename>
+      <Linenumber>188</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="1" uid="{69e302e6-4ecc-464f-9f38-44712d387dd3}">
+    <Summary>TODO: not implemented yet</Summary>
+    <Description></Description>
+    <Created>2017-10-17, 22:40:19</Created>
+    <Resource>
+      <Filename>123.py</Filename>
+      <Linenumber>198</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="1" uid="{2ecf9c20-be8d-46ef-8d9e-0809647a6060}">
+    <Summary>TODO: not implemented yet</Summary>
+    <Description></Description>
+    <Created>2017-10-17, 22:40:19</Created>
+    <Resource>
+      <Filename>123.py</Filename>
+      <Linenumber>208</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="1" uid="{e58d72cf-21ef-4330-9669-cfda3a54ca3f}">
+    <Summary>TODO: not implemented yet</Summary>
+    <Description></Description>
+    <Created>2017-10-17, 22:40:19</Created>
+    <Resource>
+      <Filename>123.py</Filename>
+      <Linenumber>216</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="1" uid="{12ffcb61-629a-4b61-b1ac-0d9fe60fc4a6}">
+    <Summary>TODO: not implemented yet</Summary>
+    <Description></Description>
+    <Created>2017-10-17, 22:40:19</Created>
+    <Resource>
+      <Filename>123.py</Filename>
+      <Linenumber>224</Linenumber>
+    </Resource>
+  </Task>
+</Tasks>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE Tasks SYSTEM "Tasks-4.2.dtd">
+<!-- eric4 tasks file for project 123 -->
+<!-- Saved: 2017-10-13, 16:13:43 -->
+<Tasks version="4.2">
+  <Task priority="1" completed="False" bugfix="False">
+    <Summary>TODO: not implemented yet</Summary>
+    <Description></Description>
+    <Created>2017-10-13, 16:00:15</Created>
+    <Resource>
+      <Filename>123.py</Filename>
+      <Linenumber>28</Linenumber>
+    </Resource>
+  </Task>
+</Tasks>
